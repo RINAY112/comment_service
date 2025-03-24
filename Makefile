@@ -20,7 +20,7 @@ run:
 build:
 	docker build -t comment_service .
 
-run:
+run_container:
 	docker run -p 8000:8000 comment_service
 
 stop:
